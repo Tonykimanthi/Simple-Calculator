@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 33%;
-    height: 62vh;
+    height: 73vh;
     background-color: rgba(0, 0, 0, 0.785);
 }
 
@@ -48,6 +48,24 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* Top buttons */
+.row-containers .percent, .row-containers .square-root{
+    background-color: #4bcffa;
+}
+.row-containers .percent:hover, .row-containers .square-root:hover{
+    background-color: #79dcfd;
+}
+.row-containers .clear{
+    background-color: #f53b57;
+}
+.row-containers .delete{
+    background-color: #ef5777;
+}
+.row-containers .clear:hover, .row-containers .delete:hover{
+    background-color: #fd7391;
+}
+
 .row-containers button{
     border: none;
     outline: none;
