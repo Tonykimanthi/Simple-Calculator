@@ -8,10 +8,7 @@ const percent = document.querySelector(".percent");
 
 squareRoot.addEventListener("click", function(){
     let sqroot = Math.sqrt(screen.value);
-    screen.value = "√"
-
-    // UNCOMPLETE
-    
+    screen.value = sqroot;
 });
 
 percent.addEventListener("click", function(){
